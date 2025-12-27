@@ -1,0 +1,7 @@
+FROM alpine
+#RUN-Executes a command during image build time
+#apk-Package manager for Alpine Linux
+#add-Installs a package
+#--no-cache- Prevents storing package index files   Keeps image small and clean
+RUN apk add --no-cache curl
+
